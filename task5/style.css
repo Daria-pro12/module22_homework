@@ -1,0 +1,63 @@
+.btn {
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    box-shadow: none;
+    cursor: pointer;
+      margin: 5px 10px;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 12px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: white;
+    background: #315efb;
+    transition: 0.3s;
+  }
+  
+  .btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141,150,178,.3);
+    transform: scale(1.05);
+  }
+  
+  .input-message {
+    color: #315efb;
+    font-size: 12px;
+    border-color: #315efb;
+    line-height: 15px;
+    padding: 10px;
+    border-radius: 2px;
+    width: 35%;
+  }
+  
+  #output {
+    border: 2px solid #315efb;
+    margin-top: 10px;
+    border-radius: 5px;
+    width: 50%;
+    min-height: 300px;
+  }
+
+  .user-message, .server-message, .geo {
+    color: #0e41f7;
+    padding: 10px;
+    border-radius: 10px;
+    overflow-wrap: break-word;
+    max-width: 300px;
+}
+
+  .user-message {
+    background-color: rgba(150, 248, 183, 0.76);
+    margin-left: auto;
+  }
+
+  .server-message {
+    background-color: rgba(222, 231, 225, 0.76);
+}
+
+.geo {
+    margin-left: auto;
+    background-color: rgba(240, 159, 54, 0.76);
+}

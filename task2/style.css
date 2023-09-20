@@ -1,0 +1,23 @@
+.btn {
+    border: none;
+    cursor: pointer;
+    margin: 5px 10px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    background: #98ff9d;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    box-shadow: 0px 2px 8px 2px rgba(141, 150, 178, .3);
+    transform: scale(1.05);
+}
+
+.btn_icon {
+    width: 15px;
+    height: 15px;
+}
+
+.btn--magic .btn_icon svg path {
+    d: path('M16 8A8 8 0 1 0 0 8a8 8 0 0 0 16 0zm-5.904-2.803a.5.5 0 1 1 .707.707L6.707 10h2.768a.5.5 0 0 1 0 1H5.5a.5.5 0 0 1-.5-.5V6.525a.5.5 0 0 1 1 0v2.768l4.096-4.096z');
+}
